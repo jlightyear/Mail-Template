@@ -53,8 +53,16 @@ body{
 .article{
 	background-color: #f2f2f2;
 	width: 100%;
-	padding: 2em 0em 1em 0em;
+	padding: 1em 0em 0em 0em;
 	color: #444444;
+}
+
+.first{
+	padding-top: 2em;
+}
+
+.last{
+	padding-bottom: 2em;
 }
 
 .center{
@@ -81,6 +89,16 @@ body{
 	padding-left: 0.5em;
 }
 
+hr { 
+    display: block;
+    margin-top: 1.2em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+ 	min-width: 43%;
+ 	max-width: 550px;
+}
+
 .intro-info h1{
 	font-size: 2em;
 	margin-bottom: 0px;
@@ -89,4 +107,16 @@ body{
 .intro-info h2{
 	font-size: 1.1em;
 	color: #000000;
+}
+
+.footer{
+	width: 100%;
+	background-color: #cccccc;
+}
+
+.footer p{
+	padding: 2em 3em 1em 3.5em;
+	font-size: 0.75em;
+	color: #444444;
+	margin: 0px;
 }
